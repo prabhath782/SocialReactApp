@@ -27,4 +27,8 @@ router.all("new ",(res,req)=>{
 
 //  add routes for the posts
 
+router.delete("hello",()=>{
+    res.send("delete the post");
+});
+
 export default router;
